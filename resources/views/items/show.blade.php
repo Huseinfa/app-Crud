@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>Items</h1>
-    <!-- Menampilkan pesan sukses jika ada -->
+    <!-- Menampilkan pesan sukses jika berhasil masuk session -->
     @if(session('success'))
         <p>{{ session('success') }}</p>
     @endif

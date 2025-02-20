@@ -7,7 +7,7 @@
 <body>
     <h1>Add Item</h1>
 
-    <!-- Form untuk mengedit item -->
+    <!-- Form untuk menambah item -->
     <form action="{{ route('items.store') }}" method="POST">
         @csrf
 
